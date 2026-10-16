@@ -18,5 +18,5 @@ INSERT INTO plat (libelle,prix) VALUES
 ('Mofo gasy',1000),
 ('Ranon''ampango',500);
 
-SELECT libelle,prix FROM plat ORDER BY prix;
+SELECT libelle as  plat,prix FROM plat ORDER BY prix;
 

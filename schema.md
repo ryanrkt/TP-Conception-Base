@@ -8,9 +8,13 @@
 ---
 
 ## Tables
+### Categorie
+- **id_categorie**
+- libelle
 
 ### Plat 
 - **id_plat**
+- #id_categorie
 - libelle
-- prix
+- prix 
 
