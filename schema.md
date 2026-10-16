@@ -17,4 +17,19 @@
 - #id_categorie
 - libelle
 - prix 
+### Client
+- id_client
+- nom
+- prenom
+
+### Commande
+- id_commande
+- date_commande
+- #id_client?
+
+### Ligne_Commande
+- id_ligne
+- #id_commande
+- #id_plat
+- quantite
 
